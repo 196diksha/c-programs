@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int p,q,r;
+printf("enter two numbers" );
+scanf("%d%d",&p,&q);
+p=r;
+q=p;
+r=q;
+printf("first variable=%d second variable=%d");
+getch();
+
+}
