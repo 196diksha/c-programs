@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char i;
+scanf("%ch",&i);
+if(i=='o')
+{
+printf("orange");
+ }
+ else
+ {
+ printf("not valid");
+ }
+else if(i=='r')
+ {
+ printf("red");
+ }
+ else
+ {
+ printf("not valid");
+}
+getch();
+
+}
