@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int r;
+void calculate (int);
+printf("enter radius");
+scanf("%d",&r);
+calculate area(r);
+}
+void calculate area(int p);
+{
+float area;
+area=3.14*r*r;
+printf("%f",area);
+}
